@@ -1,9 +1,7 @@
-
-
 def get_number_of_racers():
-    racers = 0
     while True:
         try:
+            # Prompt the user to enter the number of racers
             racers = int(input("Enter the number of racers (2-10): "))
 
             if 2 <= racers <= 10:

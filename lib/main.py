@@ -3,6 +3,8 @@ import turtle_setup
 import random
 import turtle
 
+# Main function to run the turtle racing game
+
 
 def main():
     print("main loaded")
@@ -31,7 +33,7 @@ def main():
                 race = False
                 break
 
-    screen.mainloop()
+    screen.mainloop()  # Keep the turtle graphics window open until the user closes it
 
 
 # Run the main function when the script is executed
